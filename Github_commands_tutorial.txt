@@ -1,7 +1,7 @@
 Github commands :
 1.Git clone - clone the repository
 1.Git status -> Status of the file
-2.Git add -> Adding files to staging area
+2.Git add file_name -> Adding files to staging area
 3.Git commit -m 'text' - commit code to the local version control system 
 4.Git push -> push commited changes to the server (git hub)
 5.Git log -> display all the commits in a respository history
