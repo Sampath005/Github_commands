@@ -1,0 +1,37 @@
+Github commands :
+1.Git clone - clone the repository
+1.Git status -> Status of the file
+2.Git add -> Adding files to staging area
+3.Git commit -m 'text' - commit code to the local version control system 
+4.Git push -> push commited changes to the server (git hub)
+5.Git log -> display all the commits in a respository history
+6.git difftool HEAD -> shows difference betweeen your local changes and previous version of the file 
+
+Discard and Reset :
+Before commit :
+
+7.Git checkout -- file_name -> To discard changes in working directory
+8.Git checkout -- -> display all the commit in a repository's history
+
+After commit :
+
+9.Git revert commit_id -> revert and commit the changes 
+10.Git revert -n commit_id -> revert and not commit the changes , we need to explicitly add the commit command to commit 
+11.Git reset -- hard commit_id 
+Note -> :q to close the UI
+
+Branching :
+
+Note -> master is the default branch
+12.Git branch_name -> This will create new branch 
+13.Git branch -> display all the branches 
+14.Git checkout branch_name -> This makes branck_name as current node 
+15.Git checkout -b dumy -> create and move to this branch 
+
+Merging  :
+
+Note -> go to the branch where you need to merge 
+16.Git merge branch_name -> merge this branch to master
+
+Deleting :
+17. Git branch -d dummy -> delete the branch 
